@@ -4439,10 +4439,10 @@ stack-utils@^2.0.2:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-state-local@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/state-local/-/state-local-1.0.6.tgz#137088a941d361a0f11829965b2f46ec7e9968b4"
-  integrity sha512-+IlgkKVNVmGwt9fqBaU76y/Fvj0fuQGDQESnFBD9kVW6T0/HtDyRXeDXmEba3dOMfMufZC6PuKO9eQ9pKJtmiA==
+state-local@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/state-local/-/state-local-1.0.7.tgz#da50211d07f05748d53009bee46307a37db386d5"
+  integrity sha512-HTEHMNieakEnoe33shBYcZ7NX83ACUjCu8c40iOGEZsngj9zRnkqS9j1pqQPXwobB0ZcVTk27REb7COQ0UR59w==
 
 static-extend@^0.1.1:
   version "0.1.2"
