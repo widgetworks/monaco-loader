@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/trusted-types@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-1.0.6.tgz#569b8a08121d3203398290d602d84d73c8dcf5da"
+  integrity sha512-230RC8sFeHoT6sSUlRO6a8cAnclO06eeiq1QDfiv2FGCLWFvvERWgwIQD4FWqD9A69BN7Lzee4OXwoMVnnsWDw==
+
 esbuild-android-64@0.14.27:
   version "0.14.27"
   resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.14.27.tgz#b868bbd9955a92309c69df628d8dd1945478b45c"
@@ -152,10 +157,12 @@ is-core-module@^2.8.1:
   dependencies:
     has "^1.0.3"
 
-monaco-editor@^0.33.0:
-  version "0.33.0"
-  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.33.0.tgz#842e244f3750a2482f8a29c676b5684e75ff34af"
-  integrity sha512-VcRWPSLIUEgQJQIE0pVT8FcGBIgFoxz7jtqctE+IiCxWugD0DwgyQBcZBhdSrdMC84eumoqMZsGl2GTreOzwqw==
+monaco-editor@^0.53.0:
+  version "0.53.0"
+  resolved "https://registry.yarnpkg.com/monaco-editor/-/monaco-editor-0.53.0.tgz#2f485492e0ee822be13b1b45e3092922963737ae"
+  integrity sha512-0WNThgC6CMWNXXBxTbaYYcunj08iB5rnx4/G56UOPeL9UVIUGGHA1GR0EWIh9Ebabj7NpCRawQ5b0hfN1jQmYQ==
+  dependencies:
+    "@types/trusted-types" "^1.0.6"
 
 nanoid@^3.3.1:
   version "3.3.1"
